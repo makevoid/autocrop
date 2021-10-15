@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  autocrop:
+    image: makevoid/autocrop
+    build:
+      context: .

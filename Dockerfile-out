@@ -1,0 +1,7 @@
+FROM python:3.11-rc-slim
+
+RUN pip install --upgrade pip
+
+RUN pip install autocrop
+
+# usage autocrop -i ./data/input -o ./data/output -r reject -w 1024 -H 1024
