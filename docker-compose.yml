@@ -5,3 +5,5 @@ services:
     image: makevoid/autocrop
     build:
       context: .
+    volumes:
+      - ./data:/data
